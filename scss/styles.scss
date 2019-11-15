@@ -14,14 +14,14 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-    // Layout - Grid system setup
-    display: grid;
-    grid-template-rows: 100px 250px 150px 250px 70px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 8px;
   }
   
+  // Layout - Grid system setup
+  display: grid;
+  grid-template-rows: 100px 250px 150px 250px 70px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+
   // Positioning
   .header {
     grid-column: 1 / -1;

@@ -1,6 +1,13 @@
 .container {
   width: 90%;
   margin: 30px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 250px 150px 250px 70px;
+      grid-template-rows: 100px 250px 150px 250px 70px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
 }
 
 .container > * {
@@ -12,13 +19,6 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 100px 250px 150px 250px 70px;
-      grid-template-rows: 100px 250px 150px 250px 70px;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  grid-gap: 8px;
 }
 
 .container .header {
