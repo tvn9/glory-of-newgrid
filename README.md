@@ -8,7 +8,13 @@ This is the property of Chris N. (I) who have the complete 100% ownership of thi
 The puspose of this work is to demonstrate and test the CSS grid lay system for experimental, and education.
 
 ## Code snippet
+### Grid System Row and columns set
+![](img/newgrid01.jpg)
 
+### Grid element postioning
+![](img/newgrid02.jpg)
 
 ## Screenshot
+### WireFrame Design
+![](img/newgrid.jpg)
 
