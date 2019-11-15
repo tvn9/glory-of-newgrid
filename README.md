@@ -7,8 +7,11 @@ This is the property of Chris N. (I) who have the complete 100% ownership of thi
 ## PURPOSE of THIS PROJECT
 The puspose of this work is to demonstrate and test the CSS grid lay system for experimental, and education.
 
+## Run test
+[Click to run](https://monksedo.github.io/glory-of-newgrid/)
+
 ## Code snippet
-### Grid System Row and columns set
+### Grid system row and columns set
 ![](img/newgrid01.jpg)
 
 ### Grid element postioning
