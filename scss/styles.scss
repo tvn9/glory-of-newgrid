@@ -1,13 +1,10 @@
 // Grid system
 .container {
+  // Basic page margin setting
   width: 90%;
   margin: 30px auto;
 
-  display: grid;
-  grid-template-rows: 100px 250px 150px 250px 70px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 8px;
-
+  // Typography setting
   & > * {
     background-color: #1e3deb;
     padding: 20px;
@@ -17,8 +14,15 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+
+    // Layout - Grid system setup
+    display: grid;
+    grid-template-rows: 100px 250px 150px 250px 70px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
   }
   
+  // Positioning
   .header {
     grid-column: 1 / -1;
     // grid-column: 1 / span 4;
