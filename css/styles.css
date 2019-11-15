@@ -1,0 +1,67 @@
+.container {
+  width: 90%;
+  margin: 30px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 250px 150px 250px 70px;
+      grid-template-rows: 100px 250px 150px 250px 70px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.container > * {
+  background-color: orange;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container .header {
+  grid-column: 1 / -1;
+  text-transform: uppercase;
+}
+
+.container .hero {
+  grid-column: 1 / -1;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+}
+
+.container .side-col {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4 / 5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / span 2;
+}
+
+.container .card-1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+}
+
+.container .card-2 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+}
+
+.container .main-content {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+.container .footer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
