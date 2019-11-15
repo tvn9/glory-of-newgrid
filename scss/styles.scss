@@ -6,21 +6,22 @@
   display: grid;
   grid-template-rows: 100px 250px 150px 250px 70px;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
+  grid-gap: 8px;
 
   & > * {
     background-color: #1e3deb;
     padding: 20px;
     color: white;
-    font-size: 30px;
+    font-size: 16px;
     font-family: sans-serif;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
   
   .header {
     grid-column: 1 / -1;
     // grid-column: 1 / span 4;
-    text-transform: uppercase;
   }
 
   .hero {
@@ -32,21 +33,24 @@
     grid-column: 4 / 5;
     grid-row: 3 / span 2; 
   }
-
-  .card-1 {
-    grid-row: 3 / 4;
-  }
-
-  .card-2 {
-    grid-row: 3 / 4;
-  }
-
+  
   .main-content {
     grid-column: 1 / span 3;
   }
-
+  
   .footer {
-    grid-column: 1 / span 4;
-    padding: 10px;
+    grid-column: 1 / -1;
   }
 }
+
+// .card-1 {
+//   grid-row: 3 / 4;
+// }
+
+// .card-2 {
+//   grid-row: 3 / 4;
+// }
+
+// .card-3 { 
+//    grid-row: 3 / 4;
+// }

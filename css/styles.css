@@ -7,21 +7,22 @@
       grid-template-rows: 100px 250px 150px 250px 70px;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
+  grid-gap: 8px;
 }
 
 .container > * {
   background-color: #1e3deb;
   padding: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 16px;
   font-family: sans-serif;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .container .header {
   grid-column: 1 / -1;
-  text-transform: uppercase;
 }
 
 .container .hero {
@@ -40,18 +41,6 @@
   grid-row: 3 / span 2;
 }
 
-.container .card-1 {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3 / 4;
-}
-
-.container .card-2 {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3 / 4;
-}
-
 .container .main-content {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -59,9 +48,6 @@
 }
 
 .container .footer {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-column: 1 / span 4;
-  padding: 10px;
+  grid-column: 1 / -1;
 }
 /*# sourceMappingURL=styles.css.map */
