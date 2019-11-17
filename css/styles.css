@@ -16,9 +16,9 @@
   color: white;
   font-size: 16px;
   font-family: sans-serif;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .container .header {
