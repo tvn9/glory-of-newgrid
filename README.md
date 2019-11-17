@@ -6,7 +6,7 @@ This is the property of Chris N. (I) who have the complete 100% ownership of thi
 The wireframe concept and the code is complete free, and provided as is. 
 
 ## PURPOSE of THIS PROJECT
-The puspose of this work is to demonstrate and test the CSS grid lay system for experimental, and education.
+The puspose of this work is to demonstrate and test the CSS grid layout system for experimental, and learning.
 
 ## Run test
 [Click to run](https://monksedo.github.io/glory-of-newgrid/)
