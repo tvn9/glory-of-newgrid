@@ -22,14 +22,19 @@
 }
 
 .container .header {
-  grid-column: 1 / -1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
 }
 
 .container .hero {
   grid-column: 1 / -1;
-  -ms-grid-row: 2;
+}
+
+.container .card-1, .container .card-2, .container .card-3 {
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .container .side-col {
