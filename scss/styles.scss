@@ -4,8 +4,8 @@
   width: 90%;
   margin: 30px auto;
 
-  // Typography setting - 
-  & > * {
+  // Typography setting 
+  & > * { // * = root selector; set these typography values for everything on the page
     background-color: #1e3deb;
     padding: 20px;
     color: white;
@@ -19,12 +19,12 @@
   // Layout - Grid system setup
   display: grid;
   grid-template-rows: 100px 250px 150px 250px 70px; // Set height for row 1 to 5 (5 rows)
-  grid-template-columns: repeat(4, 1fr); // Set 4 columns, 1fr = 1 fraction
+  grid-template-columns: repeat(4, 1fr); // Set 4 columns, 1fr = 1 equal fraction/column
   grid-gap: 8px; // Set grip gap to 8px
 
   // Positioning
   .header {
-    // grid-column: 1 / -1; // Start from row 1 and span accross the screen
+    // grid-column: 1 / -1; // Start from column 1 and span accross the screen
     grid-column: 1 / span 4; // Start column 1 span accross 4 columns
   }
 
@@ -33,12 +33,12 @@
   }
 
   .card-1, .card-2, .card-3 {
-    grid-row: 3 / 4; // Start row 3 of 5 column
+    grid-row: 3 / 4; // Start row 3 end at 4
   }
 
   .side-col {
-    grid-column: 4 / 5; // Start at columns 4 of 5 row
-    grid-row: 3 / span 2; // Start from row 3 span 2
+    grid-column: 4 / 5; // Start at column 4 end 5
+    grid-row: 3 / span 2; // Start from row 3 span down 2 rows
   }
   
   .main-content {
