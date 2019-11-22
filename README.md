@@ -23,7 +23,7 @@ The puspose of this work is to demonstrate and test the CSS grid layout system f
 ![](img/newgrid.jpg)
 
 ## Hint on learning how to code 
-I took web frontend design and development training in May 2019, I have completed the course 2 times, meaning I have finished the entire course, coded all of the projects, then take the course again and code all of the projects line by line, then now at the third time on recently, Yes I am rewriting all the code from scratch again. This process helps me because each time I review and recode the projects, I have gained a deep understanding at a much-advanced level of many concepts that I have missed the first time.
+I took web frontend design and development training, I have completed the course 2 times, meaning I have finished the entire course, coded all of the projects, then take the course again and code all of the projects line by line, then now at the third time on recently, Yes I am rewriting all the code from scratch again. This process helps me because each time I review and recode the projects, I have gained a deep understanding at a much-advanced level of many concepts that I have missed the first time.
 
 This is very common when you are learning anything, the first reading of a book does not give you a full understanding, you only truly gain a deep understanding the second time or the third time, depend on the complexity of the subject that you are learning. That is how to master anything, I did not invent this idea, I had a chance to work for the group surgeons for over 5 years.
 
