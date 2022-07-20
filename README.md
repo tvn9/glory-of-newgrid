@@ -5,7 +5,7 @@ A simple demonstration of the new grid layout from the CSS advance grid system.
 The puspose of this work is to demonstrate and test the CSS grid layout system for experimental, and learning.
 
 ## Run test
-[Click to run](https://monksedo.github.io/glory-of-newgrid/)
+[Click to run](https://tvn9.github.io/glory-of-newgrid/)
 
 ## Code snippet
 ### Grid system row and columns set
